@@ -1,0 +1,124 @@
+p{
+    text-align: justify;
+    font-family: roboto;
+}
+
+body, ul, li{
+    font-family: roboto;
+}
+
+.floating{
+    float: left;
+}
+body {
+  padding-top: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #138df2;
+    
+}
+
+.inline{
+    display: inline-block;
+}
+
+.btn-aqua{
+    background-color: blue;
+    color: white;
+}
+
+.invisible{
+    backface-visibility: hidden;
+}
+
+#abc{
+    float: right;
+    width: 500px;
+}
+
+.home-background{
+    background-image: url(Images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top  center;
+}
+
+.service-background{
+    background-image: url(Images/services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;   
+}
+
+.aboutus-background{
+    background-image: url(Images/about-us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.contactus-background{
+    background-image: url(Images/contactus-top.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.navbar1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7),to(#eee));
+  background-image: -webkit-linear-gradient(top, #f7f7f7 0%,#eee 100%);
+  background-image: -o-linear-gradient(top, #f7f7f7 0%,#eee 100%);
+  background-image: linear-gradient(to bottom, #f7f7f7 0%,#eee 100%);
+  border: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .navbar-nav .nav-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.hector{
+    -webkit-animation-duration: 10s;
+    -webkit-animation-delay: 1s;
+}
+
